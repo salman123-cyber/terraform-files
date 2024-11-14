@@ -1,3 +1,8 @@
+variable "arg_location"{
+  type=string
+  default="South India"
+}
+
 variable "n_count"{
   type=number
   default=2
