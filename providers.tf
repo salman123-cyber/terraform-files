@@ -1,8 +1,8 @@
 provider "azurerm" {
   features {}
-  client_id  = var.azure_client_id
-  client_secret   =   var.azure_client_secret
-  tenant_id       =   var.azure_tenent_id
+  client_id  = "def80782-17cc-44be-a66f-0449f651d052"
+  client_secret   =   "eAU8Q~u_Gb3i5XF~8QLPuIFjz7dyFCkwkZdf.c0o"
+  tenant_id       =   "def80782-17cc-44be-a66f-0449f651d052"
   subscription_id = "29e23d23-aa38-4ea4-8036-d50a5b2c964c"
 }
 provider "kubernetes" {   
