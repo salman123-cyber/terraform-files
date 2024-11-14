@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
-  location = "South India"
+  location = var.arg_location
 }
  
 resource "azurerm_kubernetes_cluster" "example" {
