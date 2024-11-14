@@ -1,23 +1,3 @@
-variable "azure_client_id"{
-type=string
-default=""
-}
-
-variable "azure_client_secret"{
-type=string
-default=""
-}
-
-variable "azure_tenent_id"{
-type=string
-default=""
-}
-
-variable "azure_subscription_id"{
-type=string
-default="29e23d23-aa38-4ea4-8036-d50a5b2c964c"
-}
-
 variable "arg_location"{
   type=string
   default="South India"
