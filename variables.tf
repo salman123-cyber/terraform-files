@@ -15,7 +15,7 @@ default=""
 
 variable "azure_subscription_id"{
 type=string
-default=""
+default="29e23d23-aa38-4ea4-8036-d50a5b2c964c"
 }
 
 variable "arg_location"{
