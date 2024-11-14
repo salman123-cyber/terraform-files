@@ -1,9 +1,9 @@
 provider "azurerm" {
   features {}
-  client_id  = credentials('client_id')
-  client_secret   =   credentials('client_secret')
-  tenant_id       =   credentials('tenant_id')
-  subscription_id = credentials('subscription_id')
+  client_id  = var.azure_client_id
+  client_secret   =   var.azure_client_secret
+  tenant_id       =   var.azure_tenent_id
+  subscription_id = var.azure_subscription_id
 }
 provider "kubernetes" {   
     host                   =    azurerm_kubernetes_cluster.example.kube_config.0.host
