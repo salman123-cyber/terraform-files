@@ -27,8 +27,9 @@ resource "azurerm_kubernetes_cluster" "example" {
   identity {
     type = "SystemAssigned"
   }
+kubernetes_version = "1.21.7"  # Specify the Kubernetes version here
 }
- 
+
 resource "kubernetes_deployment" "example" {
   metadata {
     name      = "example-deployment"
