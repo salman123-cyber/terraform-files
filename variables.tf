@@ -1,6 +1,6 @@
 variable "arg_location"{
   type=string
-  default="South India"
+  default="East Us"
 }
 
 variable "n_count"{
@@ -10,7 +10,7 @@ variable "n_count"{
 
 variable "n_size"{
   type=string
-  default="Standard_B2s"
+  default="Standard_DS2_v2"
 }
 
 variable "n_disk_size"{
