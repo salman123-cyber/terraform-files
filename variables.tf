@@ -10,7 +10,7 @@ variable "n_count"{
 
 variable "n_size"{
   type=string
-  default="Standard_DS2_v2"
+  default="standard_d4pds_v5"
 }
 
 variable "n_disk_size"{
