@@ -1,4 +1,4 @@
-variable "arg_location"{
+tvariable "arg_location"{
   type=string
   default="South India"
 }
@@ -25,12 +25,12 @@ variable "n_max_pods"{
 
 variable "c_name"{
   type=string
-  default="getting-started"
+  default="react"
 }
 
 variable "c_image"{
   type=string
-  default="salmanmirza331/getting-started:latest"
+  default="salmanmirza331/react:latest"
 }
 
 variable "c_port"{
