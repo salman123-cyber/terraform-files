@@ -1,4 +1,4 @@
-tvariable "arg_location"{
+variable "arg_location"{
   type=string
   default="South India"
 }
